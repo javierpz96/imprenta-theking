@@ -1,0 +1,75 @@
+.about-us-general-container {
+  background-color: hsl(0, 0%, 100%);
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  height: 40vh;
+  width: 80vw;
+}
+
+.quienes-somos {
+  margin-bottom: 1.5rem;
+  font-size: 3.5rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+.texto-quienes-somos {
+  font-weight: 300;
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  .quienes-somos {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    
+  }
+  .texto-quienes-somos {
+    font-size: 1.3rem;
+    text-align: center;
+    
+  }
+}
+
+.ilu1 {
+  width: 500px;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 800px){
+  .about-us-container{
+      display: grid;
+      margin-bottom: 300px;
+      
+  }
+  
+}
+
+@media screen and (max-width: 800px){
+  .texto-quienes-somos {
+    min-height:100px;
+    margin: 0 auto;
+    padding: 5px;
+    width:350px; 
+    word-break: break-all;
+    margin-top: -10px;
+
+    
+  }
+}
+
+@media screen and (max-width: 800px){
+  .ilu1{
+    margin-top: 150px;
+    width: 350px;
+  }
+}

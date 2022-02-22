@@ -1,0 +1,67 @@
+.main-general-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/src/img/03 - Corporeos/12.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  color: rgb(243, 235, 74);
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  justify-content: space-between;
+  width: 80rem;
+  font-weight: 500;
+  font-size: 6rem;
+}
+
+.soluciones-graficas {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 6rem;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .main-general-container {
+    height: 45vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .soluciones-graficas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-general-container {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-general-container {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+}
